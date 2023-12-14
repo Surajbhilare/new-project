@@ -1,0 +1,391 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap4" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Display+Playfair:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/jquery.fancybox.min.css' %}">
+  <link rel="stylesheet" href="{% static 'fonts/icomoon/style.css' %}">
+  <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css' %}">
+  <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+  <title>Learner Free Bootstrap Template by Untree.co</title>
+</head>
+
+<body>
+
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+
+  <nav class="site-nav mb-5">
+    <div class="pb-2 top-bar mb-3">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-lg-9">
+            <a href="#" class="small mr-3"><span class="icon-question-circle-o mr-2"></span> <span
+                class="d-none d-lg-inline-block">Have a questions?</span></a>
+            <a href="#" class="small mr-3"><span class="icon-phone mr-2"></span> <span
+                class="d-none d-lg-inline-block">10 20 123 456</span></a>
+            <a href="#" class="small mr-3"><span class="icon-envelope mr-2"></span> <span
+                class="d-none d-lg-inline-block">info@mydomain.com</span></a>
+          </div>
+
+          <div class="col-6 col-lg-3 text-right">
+            <a href="{% url 'login' %}" class="small mr-3">
+              <span class="icon-lock"></span>
+              Log In
+            </a>
+            <a href="{% url 'register' %}" class="small">
+              <span class="icon-person"></span>
+              Register
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="sticky-nav js-sticky-header">
+      <div class="container position-relative">
+        <div class="site-navigation text-center">
+          <a href="index.html" class="logo menu-absolute m-0">Learner<span class="text-primary"></span></a>
+
+          <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
+            <li class="has-children"><a href="#">Home</a>
+              <ul class="dropdown">
+                <li><a href="{% url 'company' %}">Company</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Current Opening</a></li>
+                <li class="has-children">
+                  <a href="#">HR Services</a>
+                  <ul class="dropdown">
+                    <li><a href="#">What We Do for Clients </a></li>
+                    <li><a href="#">Job Seekers</a></li>
+                  </ul>
+                </li>
+
+                 </ul>
+
+            </li>
+            <li class="has-children">
+              <a href="#">IT Courses</a>
+              <ul class="dropdown">
+                <li><a href="{% url 'java' %}">Salesforce</a></li>
+                <li class="has-children">
+                  <a href="{% url 'java' %}">Networking</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">Salesforce</a></li>
+                    <li><a href="{% url 'java' %}">Cisco</a></li>
+                    <li><a href="{% url 'java' %}">Cloud Computing</a></li>
+                    <li><a href="{% url 'java' %}">Amazon</a></li>
+                    <li><a href="{% url 'java' %}">Cyber Security</a></li>
+                    <li><a href="{% url 'java' %}">Linux Training</a></li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="#">Cyber Security</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">Cyber Security Job Ready Program</a></li>
+                    <li><a href="{% url 'java' %}">Certified Ethical Hacking V12 Course</a></li>
+                    <li><a href="{% url 'java' %}">SOC</a></li>
+                    <li><a href="{% url 'java' %}">Hacking Forensic Investigator</a></li>
+                    <li><a href="{% url 'java' %}">Web Application Penetration Testing</a></li>
+                  </ul>
+                </li>
+
+                <li class="has-children">
+                  <a href="#">Software Development</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">C and C++</a></li>
+                    <li><a href="{% url 'java' %}">Java</a></li>
+                    <li><a href="{% url 'java' %}">Java Framework Training</a></li>
+                    <li><a href="{% url 'java' %}">Software Testing</a></li>
+                    <li><a href="{% url 'java' %}">Selnium With Java</a></li>
+                    <li><a href="{% url 'java' %}">Angular 16</a></li>
+                    <li><a href="{% url 'java' %}">Front End Development</a></li>
+                    <li><a href="{% url 'java' %}">UI/UX Training</a></li>
+                    <li><a href="{% url 'java' %}">Data Structure</a></li>
+                    <li><a href="{% url 'java' %}">Data Structure and Alogirithms with Full Stack</a></li>
+                    <li><a href="{% url 'java' %}">Data Structure and Alogirithms with Java</a></li>
+                  </ul>
+                </li>
+
+                <li class="has-children">
+                  <a href="#">Full Stack Development</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">Full Stack With Web Development</a></li>
+                    <li><a href="{% url 'java' %}">Full Stack Java</a></li>
+                    <li><a href="{% url 'java' %}">Full Stack With Python Course</a></li>
+                    <li><a href="{% url 'java' %}">Full Stack QA Course</a></li>
+                    <li><a href="{% url 'java' %}">Dot NET Full Stack Course</a></li>
+                    <li><a href="{% url 'java' %}">MEAN Stack</a></li>
+                    <li><a href="{% url 'java' %}">MERN Stack</a></li>
+                    <li><a href="{% url 'java' %}">React JS</a></li>
+                  </ul>
+                </li>
+
+                <li class="has-children">
+                  <a href="#">Data Analytics</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">Full Stack With Python Course</a></li>
+                    <li><a href="{% url 'java' %}">Data Science Course</a></li>
+                    <li><a href="{% url 'java' %}">Business Analyst</a></li>
+                    <li><a href="{% url 'java' %}">Data Analytics</a></li>
+                    <li><a href="{% url 'java' %}">Artificial Intelligence</a></li>
+                    <li><a href="{% url 'java' %}">Python</a></li>
+                    <li><a href="{% url 'java' %}">PL-SQL</a></li>
+                    <li><a href="{% url 'java' %}">SQL</a></li>
+                    <li><a href="{% url 'java' %}">Ui Path</a></li>
+                    <li><a href="{% url 'java' %}">ETL</a></li>
+                  </ul>
+                </li>
+
+                <li class="has-children">
+                  <a href="#">Digital Marketing Training</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">Adv.Digital Marketing</a></li>
+                    <li><a href="{% url 'java' %}">Pay Per Click Training</a></li>
+                    <li><a href="{% url 'java' %}">Search Engine Optimization</a></li>
+                    <li><a href="{% url 'java' %}">Social Media Marketing</a></li>
+                    <li><a href="{% url 'java' %}">Advanced Analytics Training</a></li>
+                  </ul>
+                </li>
+
+                <li class="has-children">
+                  <a href="#">Job Guarantee Package</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">Software Development</a></li>
+                    <li><a href="{% url 'java' %}">Data Analytics Job Guarantee</a></li>
+                    <li><a href="{% url 'java' %}">Certification In HR Training</a></li>
+                    <li><a href="{% url 'java' %}">Networking Job Guarantee</a></li>
+                  </ul>
+                </li>
+
+
+                <li><a href="#">Advanced Excel</a></li>
+                <li><a>Student Placement List</a></li>
+              </ul>
+            </li>
+            <li class="has-children"><a>SAP Courses</a>
+              <ul class="dropdown">
+                <li><a href="{% url 'java' %}">SAP Courses</a></li>
+                <li><a href="{% url 'java' %}">SAP Master Data Governance</a></li>
+                <li><a href="{% url 'java' %}">SAP FICO</a></li>
+                <li><a href="{% url 'java' %}">SAP Material Managment</a></li>
+                <li><a href="{% url 'java' %}">SAP ABAP</a></li>
+                <li><a href="{% url 'java' %}">SAP Sales Distribution</a></li>
+                <li><a href="{% url 'java' %}">SAP S/4 HANA</a></li>
+                <li><a href="{% url 'java' %}">SAP PP</a></li>
+                <li><a href="{% url 'java' %}">SAP BAIS</a></li>
+                <li><a href="{% url 'java' %}">SAP SCM</a></li>
+                <li><a href="{% url 'java' %}">SAP HR Training</a></li>
+              </ul>
+            </li>
+            <li class="has-children"><a href="#">HR Courses</a>
+              <ul class="dropdown">
+                <li><a href="{% url 'java' %}">HR Training</a></li>
+                <li><a href="{% url 'java' %}">HR Analytics</a></li>
+                <li><a href="{% url 'java' %}">HR Audit</a></li>
+                <li><a href="{% url 'java' %}">HRBP Training</a></li>
+                <li><a href="{% url 'java' %}">Business Analyst</a></li>
+                <li><a href="{% url 'java' %}">SAP HR Training</a></li>
+                <li><a href="{% url 'java' %}">Certification In HR Training</a></li>
+              </ul>
+            </li>
+
+            <li class="has-children"><a href="#">Fashion & Interior Design</a>
+              <ul class="dropdown">
+                <li><a href="{% url 'java' %}">Fashion Designing</a></li>
+                <li><a href="{% url 'java' %}">Nail Art</a></li>
+                <li class="has-children">
+                  <a href="#">Interior Designing</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">Interior Designing</a></li>
+                    <li><a href="{% url 'java' %}">Home Styling</a></li>
+                    <li><a href="{% url 'java' %}">Commercial Designing</a></li>
+                    <li><a href="{% url 'java' %}">Vastu Shashtra</a></li>
+                    <li><a href="{% url 'java' %}">Lumion</a></li>
+                    <li><a href="{% url 'java' %}">Modular Kitchen</a></li>
+                    <li><a href="{% url 'java' %}">Landscape Design</a></li>
+                  </ul>
+                </li>
+
+                <li class="has-children">
+                  <a href="#">AutoCAD</a>
+                  <ul class="dropdown">
+                    <li><a href="{% url 'java' %}">AutoCAD 2D & 3D</a></li>
+                    <li><a href="{% url 'java' %}">AutoCAD Civil</a></li>
+                    <li><a href="{% url 'java' %}">AutoCAD Electrical</a></li>
+                    <li><a href="{% url 'java' %}">AutoCAD Mechanical</a></li>
+                  </ul>
+                </li>
+                <li><a href="{% url 'java' %}">Unigraphics</a></li>
+                <li><a href="{% url 'java' %}">Revit Architecture</a></li>
+                <li><a href="{% url 'java' %}">Revit MEP</a></li>
+                <li><a href="{% url 'java' %}">3Ds Max</a></li>
+                <li><a href="{% url 'java' %}">Google Sketchup</a></li>
+              </ul>
+            </li>
+            <li class="has-children"><a href="#">Language</a>
+              <ul class="dropdown">
+                <li><a href="{% url 'java' %}">Spoken English</a></li>
+                <li><a href="{% url 'java' %}">Personality Development Class</a></li>
+                <li><a href="{% url 'java' %}">German Language</a></li>
+                <li><a href="{% url 'java' %}">French Language</a></li>
+                <li><a href="{% url 'java' %}">Japnese Language</a></li>
+                <li><a href="{% url 'java' %}">IELTS Coaching In Pune</a></li>
+                <li><a href="{% url 'java' %}">Voice and Accent (VNA)</a></li>
+                <li><a href="{% url 'java' %}">Train the Trainer(TTT)</a></li>
+                <li><a href="{% url 'java' %}">OET</a></li>
+                <li><a href="{% url 'java' %}">GRE</a></li>
+
+              </ul>
+            </li>
+            <li><a href="{% url 'online' %}">Online Training</a></li>
+          </ul>
+
+          <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
+            data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  {% block 'body' %}
+  {% endblock 'body' %}
+
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-2 col-sm-2 col-lg-2">
+          <div class="footer-info">
+            <div class="section-title">
+              <h2>About Microlearining</h2>
+            </div>
+            <p><a href="{% url 'enterprises' %}">Enterprises Network Solution</a></p>
+            <p><a href="#">HR Recruitment IT & Non-IT</a></p>
+            <p><a href="#">Network Consulting Services</a></p>
+            <p><a href="#">Corporate Training In Pune</a></p>
+            <p><a href="{% url 'terms' %}">Terms of Use</a></p>
+            <p><a href="{% url 'training' %}">Training</a></p>
+
+
+
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-2 col-lg-2">
+          <div class="footer-info">
+            <div class="section-title">
+              <h2>Network Courses</h2>
+            </div>
+            <p><a href="{% url 'java' %}">Amazon Web Service</a></p>
+            <p><a href="{% url 'java' %}">Linux</a></p>
+            <p><a href="{% url 'java' %}">Azure</a></p>
+            <p><a href="{% url 'java' %}">Cyber Security</a></p>
+            <p><a href="{% url 'java' %}">DevOps</a></p>
+            <p><a href="{% url 'java' %}">Salesforce</a></p>
+
+
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-2 col-lg-2">
+          <div class="footer-info newsletter-form">
+            <div class="section-title">
+              <h2>Software Courses</h2>
+            </div>
+            <p><a href="{% url 'java' %}">Artificial Intelligence</a></p>
+            <p><a href="{% url 'java' %}">Full Stack</a></p>
+            <p><a href="{% url 'java' %}">Java</a></p>
+            <p><a href="{% url 'java' %}">MERN Stack</a></p>
+            <p><a href="{% url 'java' %}">UI/UX Design</a></p>
+            <p><a href="{% url 'java' %}">Web Development</a></p>
+            <p><a href="{% url 'java' %}">python</a></p>
+            <p><a href="{% url 'java' %}">React Js</a></p>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3 col-lg-3">
+          <div class="footer-info">
+            <div class="section-title">
+              <h2>Other Courses</h2>
+            </div>
+            <p><a href="{% url 'java' %}">SAP FICO</a></p>
+            <p><a href="{% url 'java' %}">SAP MM</a></p>
+            <p><a href="{% url 'java' %}">SAP SD</a></p>
+            <p><a href="{% url 'java' %}">SAP ABAP</a></p>
+            <p><a href="{% url 'java' %}">Spoken English</a></p>
+            <p><a href="{% url 'java' %}">Train the Trainer (TTT)</a></p>
+            <p><a href="{% url 'java' %}">HR</a></p>
+            <p><a href="{% url 'java' %}">Personality Development classes in pune</a></p>
+            <p><a href="{% url 'java' %}">Personality Development</a></p>
+            <p><a href="{% url 'java' %}">interior Designing</a></p>
+            <p><a href="{% url 'java' %}">German Language</a></p>
+            <p><a href="{% url 'java' %}">French Language</a></p>
+
+
+
+          </div>
+
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="footer-info">
+            <div class="section-title">
+              <h2>Follow us</h2>
+
+              <div class="mapouter">
+                <div class="gmap_canvas"><iframe style="height: 300px;width: 300px;"
+                    src="https://maps.google.com/maps?q=JSPM%20Narhe%20Technical%20Campus%20Survey%20No.%2012/2/2%20&amp;%2014/9,%20Pune%20Bangalore%20Highway,%20Taluka%20Haveli,%20Narhe,%20Pune,%20Maharashtra%20411041&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                    frameborder="0" scrolling="no" style="width: 470px; height: 400px;"></iframe></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.animateNumber.min.js' %}"></script>
+  <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'js/jquery.fancybox.min.js' %}"></script>
+  <script src="{% static 'js/jquery.sticky.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'js/custom.js' %}"></script>
+</body>
+
+</html>
